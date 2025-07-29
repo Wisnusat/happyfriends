@@ -848,7 +848,7 @@ export default function HomePage() {
       )}
 
       {/* Hero Section */}
-      <section id="home" className="relative z-10 px-4 py-20 lg:py-32 pt-32">
+      <section id="home" className="relative z-10 px-4 py-20 lg:py-28 pt-32">
         <div className="max-w-7xl mx-auto text-center">
           <div className="space-y-8">
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-black leading-none">
@@ -870,14 +870,14 @@ export default function HomePage() {
               <Button
                 size="lg"
                 onClick={() => scrollToSection("contact")}
-                className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-4 text-lg font-black shadow-2xl border-2 border-gray-900 transform hover:scale-105 transition-all"
+                className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-4 text-lg font-black shadow-2xl border-2 border-gray-900 transform hover:scale-105 transition-all rounded-xl"
               >
                 Start Your Project
               </Button>
               <Button
                 size="lg"
                 onClick={() => scrollToSection("portfolio")}
-                className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-4 text-lg font-black shadow-2xl border-2 border-gray-900 transform hover:scale-105 transition-all"
+                className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-4 text-lg font-black shadow-2xl border-2 border-gray-900 transform hover:scale-105 transition-all rounded-xl"
               >
                 View Portfolio
               </Button>
